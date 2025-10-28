@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "image-optimizer",
-      script: "dist/server.js",
+      script: "dist/index.js",
       instances: 1,               // single instance is enough
       autorestart: true,          // auto-restart if it crashes
       watch: false,               // disable watching in production
